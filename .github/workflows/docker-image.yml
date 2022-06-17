@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: davidhuahua/cangku
-          username: '${{ secrets.rtg3243 }}'
-          password: '${{ secrets.OE1e5CsiL9ieGq9KQK@#YT }}'
+          username: '${{ secrets.DOCKER_USERNAME }}'
+          password: '${{ secrets.DOCKER_PASSWORD }}'
